@@ -1,5 +1,7 @@
 import React from 'react'
-import Test from './home'
+import Home from './home.jsx'
+// var React = require('react');
+// var Home = require('./home.jsx');
 
 React.render(
 	<Home />,
