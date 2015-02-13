@@ -1,10 +1,7 @@
 import React from 'react'
 
-export default React.createClass({
-	displayName: 'Home',
-	render: function () {
-		return (
-			<div>Hello world!</div>
-		)
-	}
-})
+export class Home extends React.Component {
+    render() {
+        return <div>Hello {this.props.name}!</div>;
+    }
+};

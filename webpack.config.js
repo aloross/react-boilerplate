@@ -26,8 +26,8 @@ var config = {
 				loader: 'jsx!6to5-loader?experimental&optional=selfContained'
 			}
 		],
-    	noParse: /\.min\.js/
-	},
+		noParse: /\.min\.js/
+	}
 };
 
 module.exports = config;
