@@ -24,9 +24,17 @@ var config = {
 				test: /\.jsx$/,
 				exclude: /node_modules/,
 				loader: 'jsx!6to5-loader?experimental&optional=selfContained'
+			},
+			{
+				test: /\.scss$/,
+				loader: "style!css!sass?outputStyle=expanded&includePaths[]=" + node_modules
+			},
+			{ 
+				test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+				loader: 'url-loader?limit=100000'
 			}
 		],
-		noParse: /\.min\.js/
+		noParse: [pathToReact]
 	}
 };
 

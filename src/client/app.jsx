@@ -1,3 +1,5 @@
+require('./stylesheets/styles.scss');
+
 import React from 'react'
 import {Home} from './home.jsx'
 
