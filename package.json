@@ -23,6 +23,6 @@
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
-    "react": "^0.13.0-beta.1"
+    "react": "^0.13.0-rc1"
   }
 }
