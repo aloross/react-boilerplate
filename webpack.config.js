@@ -18,12 +18,12 @@ var config = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				loader: '6to5-loader?experimental&optional=selfContained'
+				loader: 'babel-loader?experimental&optional=selfContained'
 			},
 			{
 				test: /\.jsx$/,
 				exclude: /node_modules/,
-				loader: 'jsx!6to5-loader?experimental&optional=selfContained'
+				loader: 'jsx!babel-loader?experimental&optional=selfContained'
 			},
 			{
 				test: /\.scss$/,
